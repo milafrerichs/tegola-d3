@@ -38,8 +38,7 @@ var layer = map.append("div")
 var info = map.append("div")
     .attr("class", "info");
 
-// Compute the projected initial center.
-var center = projection([-74.0064, 40.7142]);
+var center = projection([-117.15117725013909, 32.72269876352742]);
 
 // Apply a zoom transform equivalent to projection.{scale,translate,center}.
 map .call(zoom)
